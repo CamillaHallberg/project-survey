@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.user-name {
+  background-color: palevioletred;
+  font-family:monospace;
+  display: flex;
+  justify-content: center;
+
+}
