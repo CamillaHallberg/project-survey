@@ -12,10 +12,3 @@ code {
     monospace;
 }
 
-.user-name {
-  background-color: palevioletred;
-  font-family:monospace;
-  display: flex;
-  justify-content: center;
-
-}
