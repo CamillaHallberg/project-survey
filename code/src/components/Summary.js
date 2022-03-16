@@ -6,9 +6,9 @@ const Summary = ({ nameInput, wantInput, ageInput }) => {
       <div className="summary">
         <h2>Yoga Recommendation</h2><br />
         <p>Thank you for completing this form, <strong>{nameInput}</strong>!<br />
-            You are in the age group of <strong>{ageInput}</strong> and based on your selection
-            we recommend you to try out:<br /><span className="recommended-yoga">{wantInput}</span><br />
-          <span className="goodbye-namaste">Namaste</span>
+            You are in the age group of <strong>{ageInput}</strong> years and based on your
+            selection we recommend you to try out:<br /><span className="recommended-yoga">{wantInput}</span><br />
+          <span className="goodbye-namaste">Namaste &#10083;</span>
         </p>
       </div>
     </section>

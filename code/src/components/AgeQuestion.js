@@ -38,18 +38,18 @@ const AgeQuestion = ({ ageInput, onAgeInputChange, onStepChange }) => {
             checked={ageInput === '46-65'} />
                     46-65 yrs
         </label>
-        <label htmlFor="66-100">
+        <label htmlFor="66-99">
           <input
             type="radio"
-            id="66-100"
-            value="66-100"
+            id="66-99"
+            value="66-99"
             name="age"
             onChange={onAgeInputChange}
-            checked={ageInput === '66-100'} />
-                    66-100 yrs
+            checked={ageInput === '66-99'} />
+                    66-99 yrs
         </label>
       </fieldset>
-      <button type="submit">Result</button>
+      <button type="submit">Show me!</button>
     </form>
   )
 }
