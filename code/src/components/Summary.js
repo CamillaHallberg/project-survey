@@ -2,13 +2,15 @@ import React from 'react'
 
 const Summary = ({ nameInput, wantInput, ageInput }) => {
   return (
-    <section>
-      <h2>Here is the yoga style recommendation for you:</h2><br />
-      <p>Thank you for completing this form, <strong>{nameInput}</strong>!<br />
+    <section className="summary-wrapper">
+      <div className="summary">
+        <h2>Yoga Recommendation</h2><br />
+        <p>Thank you for completing this form, <strong>{nameInput}</strong>!<br />
             You are in the age group of <strong>{ageInput}</strong> and based on your selection
-            we recommend you to try out:<br /><strong>{wantInput}</strong>.<br />
-            Namaste.
-      </p>
+            we recommend you to try out:<br /><span className="recommended-yoga">{wantInput}</span><br />
+          <span className="goodbye-namaste">Namaste</span>
+        </p>
+      </div>
     </section>
   )
 }

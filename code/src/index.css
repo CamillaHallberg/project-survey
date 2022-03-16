@@ -6,9 +6,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: url('./images/background.jpg') no-repeat center center fixed;
-  /* -webkit-background-size: cover;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover; */
+  -o-background-size: cover;
   background-size: cover; 
 }
 
@@ -51,24 +51,35 @@ input {
   text-align: center;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
 h1 {
+  font-family:'Shadows Into Light', cursive;
   font-size: 60px;
-  color: #655D8A;
+  color: linen;
   text-align: center;
   letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 h2 {
+  font-size: 26px;
   text-align: center;
-  color: linen;
+  color: #655D8A;
+  text-transform: uppercase;
 }
 
 p {
   text-align: center;
+  line-height: 28px;
 }
 
 .yoga-styles {
   font-size: 16px;
+}
+
+label {
+  text-align: center;
 }
 
 fieldset {
@@ -76,3 +87,48 @@ fieldset {
   border: 2px solid #fff;
   margin: 12px;
 }
+
+.summary {
+  background: #D885A3;
+  margin: 12px;
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.recommended-yoga {
+  font-size: 32px;
+}
+
+.goodbye-namaste {
+  font-family:'Shadows Into Light', cursive;
+  font-size: 23px;
+  color: linen;
+  font-style: italic;
+  line-height: 60px;
+}
+
+/* TABLET VIEW */
+@media (min-width: 768px) and (max-width: 1024px) {
+  h1 {
+    font-size: 96px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  .goodbye-namaste {
+    font-size: 28px;
+  }
+
+  .summary-wrapper {
+    max-width: 500px;
+   /* CENTRERA BOXEN */
+  }
+
+}
+
+/* DESKTOP VIEW */
+@media (min-width: 1025px) {
+
+} 

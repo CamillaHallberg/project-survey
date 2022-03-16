@@ -12,12 +12,12 @@ const WantQuestion = ({ wantInput, onWantInputChange, onStepChange }) => {
           value={wantInput}
           onChange={onWantInputChange}
           required>
-          <option value="" disabled selected>Please, select an option</option>
+          <option value="" disabled selected>Please, select an option:</option>
           <option value="Vinyasa Yoga">
                         I want to build up strength.
           </option>
           <option value="Restorative Yoga or Yin Yoga">
-                        I want to wind down after a LONG day of coding.. zZzZ
+                        I want to wind down after a long day of coding.
           </option>
           <option value="Bikram Yoga">
                         I want to sweat it out!
