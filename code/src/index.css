@@ -39,14 +39,11 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* margin: 18px; */
 }
 
-/* label */
-
 input {
-  /* display: flex; */
-  /* text-align: center; */
+  /* display: flex;
+  text-align: center; */
   margin: 10px;
   width: 200px;
   border-radius: 6px;
@@ -90,7 +87,7 @@ fieldset {
   margin: 6px;
   background: linen;
   border-radius: 12px;
-  /* border-radius: 12px; */
+  padding: 20px;
 }
 
 legend {
@@ -127,6 +124,13 @@ legend {
     font-size: 32px;
   }
 
+  fieldset {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+
+  }
+
   .goodbye-namaste {
     font-size: 28px;
   }
@@ -148,7 +152,14 @@ legend {
   p {
     font-size: 18px;
   }
-  
 
+  fieldset {
+    margin: 20px;
+  }
 
+  .summary-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 } 
