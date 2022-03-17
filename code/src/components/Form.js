@@ -23,7 +23,8 @@ const Form = () => {
     setAgeInput(event.target.value)
   }
 
-  const onStepChange = () => {
+  const onStepChange = (e) => {
+    e.preventDefault()
     setStep(step + 1)
   }
 
