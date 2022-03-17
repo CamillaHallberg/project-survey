@@ -1,13 +1,13 @@
 # Survey form with React
 
-Replace this readme with your own information about your project.
-
-Start by briefly describing the assignment in a sentence or two. Keep it short and to the point.
+This project was about creating a survey with the focus on practising using React state and controlled forms. My survey contains 3 questions where the user in the end will receive a summary displaying username, their age and what kind of yoga is recommended. :)
 
 ## The problem
 
-Describe how you approached to problem, and what tools and techniques you used to solve it. How did you plan? What technologies did you use? If you had more time, what would be next?
+I started by sketching up what kind of survey I wanted to do and due to my nerdy yoga interest I decided to go with that topic. I decided to go with a simplistic approach when it came to questions and different input types since I rather wanted to focus on coding the components and understanding how to connect these, instead of creating a lot of components and then writing code with many conditionals. This, however, is something that I would like to do if I had more time since it would be fun to gather more user input and then displaying a recommendation based on more input than one. One of the issues I encountered at the end was that the button (of type submit) rendered an error message in console saying "form is not connected". This was solved with a team member of mine, by using event.preventDefault() that I had forgotten to write. :)
+
+All in all, a fun project to do!
 
 ## View it live
 
-Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
+https://project-survey-yoga.netlify.app/
